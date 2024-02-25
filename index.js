@@ -32,6 +32,7 @@ window.onload = function(){
 
 function towasolve(){
     document.getElementById('output').innerHTML = ''
+    document.getElementById('movepoints').innerHTML = ''
 
     const style_1 = style[document.getElementsByClassName("ImageSelector__preview-child")[0].getAttribute('data-value')]
     const style_2 = style[document.getElementsByClassName("ImageSelector__preview-child")[1].getAttribute('data-value')]
@@ -98,12 +99,11 @@ function towasolve(){
 
     //行動取得ポイントの算出
     let spp = Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2)
-    const cspp = 2359
-    let calc_spp = (spp - cspp)/20 + 1
-    let calc_points = 2359 - 20*(calc_spp*20+1)
+    const cspp = 2398
+    let calc_spp = Math.floor((cspp - spp)/20) + 1
 
 
-    document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動付与 => '+calc_spp+'(素早さ'+calc_points+'以下の敵に対して2回行動が期待できます)')
+    document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動付与 => '+calc_spp)
     
 }
 
