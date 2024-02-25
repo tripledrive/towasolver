@@ -96,6 +96,13 @@ function towasolve(){
 
     document.getElementById('output').insertAdjacentHTML('beforeend','計算結果 => ' +Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2)+ '('+style_1.name+':'+Number(spd1+pas1+main1+sub1+acc1+smm1)+','+style_2.name+':'+Number(spd2+pas2+main2+sub2+acc2+smm2)+')')
 
+    //行動取得ポイントの算出
+    let spp = Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2)
+    const cspp = 2359
+    let calc_spp = (spp - cspp)/20 + 1
+
+    document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動付与 => '+calc_spp)
+    
 }
 
 function summ_passive(summ,at,spd){
