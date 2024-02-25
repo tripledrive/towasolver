@@ -20,13 +20,14 @@
         <div id="weapon_sub" class="weapon_2">サブ武器パッシブ</div>
         <div id="acce" class="acce">装飾品パッシブ</div>
         <div id="stats" class="stats">
-            実数値<br>（装飾品の合計）
+            装飾品実数値
         </div>
-        <div id="summoner" class="summoner">召喚柱</div>
+        <div id="summoner" class="summoner">その他</div>
     </div>
     <div class="container">
         <div id="style_1" class="style"></div>
         <div id="weapon_main_1" class="weapon_1">
+            <br>
             <select name="main_1_s" id="main_1_s"></select>
             <select name="main_1_t" id="main_1_t">
                 <option value="0">0凸</option>
@@ -37,6 +38,7 @@
             </select>
         </div>
         <div id="weapon_sub_1" class="weapon_2">
+            <br>
             <select name="sub_1_s" id="sub_1_s"></select>
             <select name="sub_1_t" id="sub_1_t">
                 <option value="0">0凸</option>
@@ -47,6 +49,7 @@
             </select>
         </div>
         <div id="acce_1" class="acce">
+            <br>
             <select name="acc_1_s" id="acc_1_s"></select>
             <select name="acc_1_t" id="acc_1_t">
                 <option value="0">0凸</option>
@@ -57,9 +60,11 @@
             </select>
         </div>
         <div id="stats_1" class="stats">
+            <br>
             <input type="text" size="3" max="3" id="stats_val_1">
         </div>
         <div id="summoner_1" class="summoner">
+            召喚柱<br>
             <select name="summoner_1_s" id="summoner_1_s"></select>
             <select name="summoner_1_t" id="summoner_1_t">
                 <option value="0">0凸</option>
@@ -73,6 +78,7 @@
     <div class="container">
         <div id="style_2" class="style"></div>
         <div id="weapon_main_2" class="weapon_1">
+            <br>
             <select name="main_2_s" id="main_2_s"></select>
             <select name="main_2_t" id="main_2_t">
                 <option value="0">0凸</option>
@@ -83,6 +89,7 @@
             </select>
         </div>
         <div id="weapon_sub_2" class="weapon_2">
+            <br>
             <select name="sub_2_s" id="sub_2_s"></select>
             <select name="sub_2_t" id="sub_2_t">
                 <option value="0">0凸</option>
@@ -93,6 +100,7 @@
             </select>
         </div>
         <div id="acce_2" class="acce">
+            <br>
             <select name="acc_2_s" id="acc_2_s"></select>
             <select name="acc_2_t" id="acc_2_t">
                 <option value="0">0凸</option>
@@ -103,21 +111,14 @@
             </select>
         </div>
         <div id="stats_2" class="stats">
+            <br>
             <input type="text" size="3" max="3" id="stats_val_2">
         </div>
         <div id="summoner_2" class="summoner">
-            <select name="summoner_2_s" id="summoner_2_s"></select>
-            <select name="summoner_2_t" id="summoner_2_t">
-                <option value="0">0凸</option>
-                <option value="1">1凸</option>
-                <option value="2">2凸</option>
-                <option value="3">3凸</option>
-                <option value="4">4凸</option>
-            </select>
+            <div id="memorialcard">メモカ実数値<br><input type="text" size="3" max="3" id="memorial_val"></div>
         </div>
     </div>
-    <div id="memorialcard">メモリアルカード実数値：<input type="text" size="3" max="3" id="memorial_val"></div>
-    <input type="button" value="計算" onclick="towasolve()">
+    <input type="button" value="計算" onclick="towasolve()"><br>
     <span id="output"></span><br>
     <span id="movepoints"></span>
     <hr>

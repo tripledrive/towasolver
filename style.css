@@ -45,3 +45,11 @@ body{
 img{
     width:100px;
 }
+
+.enable{
+    display: none;
+}
+
+.able{
+    display: block;
+}

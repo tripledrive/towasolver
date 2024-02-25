@@ -26,7 +26,7 @@ window.onload = function(){
     //柱を読み込む
     for(i=0;i<summoner.length;i++){
         document.getElementById('summoner_1_s').insertAdjacentHTML('beforeend',"<option value='"+i+"'>"+summoner[i].name+"</option>")
-        document.getElementById('summoner_2_s').insertAdjacentHTML('beforeend',"<option value='"+i+"'>"+summoner[i].name+"</option>")
+        //document.getElementById('summoner_2_s').insertAdjacentHTML('beforeend',"<option value='"+i+"'>"+summoner[i].name+"</option>")
     }
 }
 
@@ -46,7 +46,7 @@ function towasolve(){
     const stats_2 = document.getElementById('stats_val_2').value
     const stats_memory = document.getElementById('memorial_val').value
     const summoner_1 = summoner[document.getElementById('summoner_1_s').value]
-    const summoner_2 = summoner[document.getElementById('summoner_2_s').value]
+    //const summoner_2 = summoner[document.getElementById('summoner_2_s').value]
 
     //基礎素早さの計算
     let spd1 = Number(style_1.spd) + Number(stats_1) + Number(stats_memory)
@@ -88,9 +88,9 @@ function towasolve(){
 
     //召喚柱パッシブの計算
     let ct1 = document.getElementById('summoner_1_t').value
-    let ct2 = document.getElementById('summoner_2_t').value
+    let ct2 = document.getElementById('summoner_1_t').value
     let smm1 = summ_passive(summoner_1,ct1,spd1)
-    let smm2 = summ_passive(summoner_2,ct2,spd2)
+    let smm2 = summ_passive(summoner_1,ct2,spd2)
 
     console.log(spd1+pas1+main1+sub1+acc1+smm1);
     console.log(spd2+pas2+main2+sub2+acc2+smm2);
@@ -104,7 +104,8 @@ function towasolve(){
 
 
     document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動付与 => '+calc_spp)
-    
+    document.getElementById('save').classList.remove('enable')
+    document.getElementById('save').classList.add('able')
 }
 
 function summ_passive(summ,at,spd){
@@ -170,6 +171,3 @@ function weapon_passive(weapon,style,mt,spd){
     }
 
 }
-
-
-
