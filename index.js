@@ -99,11 +99,11 @@ function towasolve(){
 
     //行動取得ポイントの算出
     let spp = Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2)
-    const cspp = 2398
+    const cspp = 2380
     let calc_spp = Math.floor((cspp - spp)/20) + 1
 
 
-    document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動付与 => '+calc_spp)
+    document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動取得 => '+calc_spp)
     document.getElementById('save').classList.remove('enable')
     document.getElementById('save').classList.add('able')
 }
