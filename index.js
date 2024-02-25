@@ -57,16 +57,16 @@ function towasolve(){
     let pas2 = 0
     if(style_1.passive != ''){
         if(style_1.pair == style_2.name){
-            pas1 = Math.ceil(spd1 * ((Number(style_1.passive) + Number(style_1.bonus))/100))
+            pas1 = Math.floor(spd1 * ((Number(style_1.passive) + Number(style_1.bonus))/100))
         }else{
-            pas1 = Math.ceil(spd1 * (Number(style_1.passive)/100)) 
+            pas1 = Math.floor(spd1 * (Number(style_1.passive)/100)) 
         }
     }
     if(style_2.passive != ''){
         if(style_1.pair == style_2.name){
-            pas2 = Math.ceil(spd2 * ((Number(style_2.passive) + Number(style_2.bonus))/100))
+            pas2 = Math.floor(spd2 * ((Number(style_2.passive) + Number(style_2.bonus))/100))
         }else{
-            pas2 = Math.ceil(spd2 * (Number(style_2.passive)/100)) 
+            pas2 = Math.floor(spd2 * (Number(style_2.passive)/100)) 
         }
     }
 
@@ -110,63 +110,63 @@ function towasolve(){
 
 function summ_passive(summ,at,spd){
     if(at == 0){
-        return Math.ceil(spd * ((Number(summ.t0))/100))
+        return Math.floor(spd * ((Number(summ.t0))/100))
     }else if(at == 1){
-        return Math.ceil(spd * ((Number(summ.t1))/100))
+        return Math.floor(spd * ((Number(summ.t1))/100))
     }else if(at == 2){
-        return Math.ceil(spd * ((Number(summ.t2))/100))
+        return Math.floor(spd * ((Number(summ.t2))/100))
     }else if(at == 3){
-        return Math.ceil(spd * ((Number(summ.t3))/100))
+        return Math.floor(spd * ((Number(summ.t3))/100))
     }else if(at == 4){
-        return Math.ceil(spd * ((Number(summ.t4))/100))
+        return Math.floor(spd * ((Number(summ.t4))/100))
     }
 }
 
 
 function acce_passive(acce,at,spd){
     if(at == 0){
-        return Math.ceil(spd * ((Number(acce.t0))/100))
+        return Math.floor(spd * ((Number(acce.t0))/100))
     }else if(at == 1){
-        return Math.ceil(spd * ((Number(acce.t1))/100))
+        return Math.floor(spd * ((Number(acce.t1))/100))
     }else if(at == 2){
-        return Math.ceil(spd * ((Number(acce.t2))/100))
+        return Math.floor(spd * ((Number(acce.t2))/100))
     }else if(at == 3){
-        return Math.ceil(spd * ((Number(acce.t3))/100))
+        return Math.floor(spd * ((Number(acce.t3))/100))
     }else if(at == 4){
-        return Math.ceil(spd * ((Number(acce.t4))/100))
+        return Math.floor(spd * ((Number(acce.t4))/100))
     }
 }
 
 function weapon_passive(weapon,style,mt,spd){
     if(mt == 0){
         if(weapon.style == style.name){
-            return Math.ceil(spd * ((Number(weapon.t0) + Number(weapon.bonus))/100))
+            return Math.floor(spd * ((Number(weapon.t0) + Number(weapon.bonus))/100))
         }else{
-            return Math.ceil(spd * ((Number(weapon.t0))/100))
+            return Math.floor(spd * ((Number(weapon.t0))/100))
         }
     }else if(mt == 1){
         if(weapon.style == style.name){
-            return Math.ceil(spd * ((Number(weapon.t1) + Number(weapon.bonus))/100))
+            return Math.floor(spd * ((Number(weapon.t1) + Number(weapon.bonus))/100))
         }else{
-            return Math.ceil(spd * ((Number(weapon.t1))/100))
+            return Math.floor(spd * ((Number(weapon.t1))/100))
         }
     }else if(mt == 2){
         if(weapon.style == style.name){
-            return Math.ceil(spd * ((Number(weapon.t2) + Number(weapon.bonus))/100))
+            return Math.floor(spd * ((Number(weapon.t2) + Number(weapon.bonus))/100))
         }else{
-            return Math.ceil(spd * ((Number(weapon.t2))/100))
+            return Math.floor(spd * ((Number(weapon.t2))/100))
         }
     }else if(mt == 3){
         if(weapon.style == style.name){
-            return Math.ceil(spd * ((Number(weapon.t3) + Number(weapon.bonus))/100))
+            return Math.floor(spd * ((Number(weapon.t3) + Number(weapon.bonus))/100))
         }else{
-            return Math.ceil(spd * ((Number(weapon.t3))/100))
+            return Math.floor(spd * ((Number(weapon.t3))/100))
         }
     }else if(mt == 4){
         if(weapon.style == style.name){
-            return Math.ceil(spd * ((Number(weapon.t4) + Number(weapon.bonus))/100))
+            return Math.floor(spd * ((Number(weapon.t4) + Number(weapon.bonus))/100))
         }else{
-            return Math.ceil(spd * ((Number(weapon.t4))/100))
+            return Math.floor(spd * ((Number(weapon.t4))/100))
         }
     }
 
