@@ -43,12 +43,13 @@ function towasolve(){
     const acc_2 = acce[document.getElementById('acc_2_s').value]
     const stats_1 = document.getElementById('stats_val_1').value
     const stats_2 = document.getElementById('stats_val_2').value
+    const stats_memory = document.getElementById('memorial_val').value
     const summoner_1 = summoner[document.getElementById('summoner_1_s').value]
     const summoner_2 = summoner[document.getElementById('summoner_2_s').value]
 
     //基礎素早さの計算
-    let spd1 = Number(style_1.spd) + Number(stats_1)
-    let spd2 = Number(style_2.spd) + Number(stats_2)
+    let spd1 = Number(style_1.spd) + Number(stats_1) + Number(stats_memory)
+    let spd2 = Number(style_2.spd) + Number(stats_2) + Number(stats_memory)
     
     //スタイルパッシブの計算
     let pas1 = 0
