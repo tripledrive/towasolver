@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_sp.css" type="text/css">
+    <link rel="stylesheet" href="./image-selector.css" type="text/css">
+    <script src="./style.js"></script>
+    <script src="./weapon.js"></script>
+    <script src="./acce.js"></script>
+    <script src="./summoner.js"></script>
+    <script src="./image-selector.js"></script>
+    <title>とわそるば～</title>
+</head>
+<body>
+    <h2>とわそるば～</h2>
+    <div class="container top">
+        <span style="text-align: center;">スタイル１</span>
+    </div>
+    <div class="container styletop">
+        <div id="style_1" class="style"></div>
+    </div>
+    <div class="container">
+        <div id="weapon_main_1" class="weapon_1">
+            メイン武器<br>
+            <select name="main_1_s" id="main_1_s"></select>
+            <select name="main_1_t" id="main_1_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        
+        <div id="weapon_sub_1" class="weapon_2">
+            サブ武器<br>
+            <select name="sub_1_s" id="sub_1_s"></select>
+            <select name="sub_1_t" id="sub_1_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div id="acce_1" class="acce">
+            装飾品<br>
+            <select name="acc_1_s" id="acc_1_s"></select>
+            <select name="acc_1_t" id="acc_1_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="stats_1" class="stats">
+            装飾品実数値<br>
+            <input type="text" size="3" max="3" id="stats_val_1">
+        </div>
+    </div>
+    <div class="container top">
+        <span style="text-align: center;">スタイル２</span>
+    </div>
+    <div class="container styletop">
+        <div id="style_2" class="style"></div>
+    </div>
+    <div class="container">
+        <div id="weapon_main_2" class="weapon_1">
+            メイン武器<br>
+            <select name="main_2_s" id="main_2_s"></select>
+            <select name="main_2_t" id="main_2_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="weapon_sub_2" class="weapon_2">
+            サブ武器<br>
+            <select name="sub_2_s" id="sub_2_s"></select>
+            <select name="sub_2_t" id="sub_2_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div id="acce_2" class="acce">
+            装飾品<br>
+            <select name="acc_2_s" id="acc_2_s"></select>
+            <select name="acc_2_t" id="acc_2_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="stats_2" class="stats">
+            装飾品実数値<br>
+            <input type="text" size="3" max="3" id="stats_val_2">
+        </div>
+    </div>
+    <div class="container top">
+        <span style="text-align: center;">ペア共通</span>
+    </div>
+        <div class="container">
+            <div id="summoner_1" class="summoner">
+                召喚柱<br>
+                <select name="summoner_1_s" id="summoner_1_s"></select>
+                <select name="summoner_1_t" id="summoner_1_t">
+                    <option value="0">0凸</option>
+                    <option value="1">1凸</option>
+                    <option value="2">2凸</option>
+                    <option value="3">3凸</option>
+                    <option value="4">4凸</option>
+                </select>
+            </div>
+            <div id="summoner_2" class="summoner">
+                <div id="memorialcard">メモカ実数値<br><input type="text" size="3" max="3" id="memorial_val"></div>
+            </div>
+        </div>
+    <input type="button" value="計算" onclick="towasolve()"><br>
+    <span id="output"></span><br>
+    <span id="movepoints"></span>
+    <hr>
+    メモ：敵素早さの基準は1600（行動付与40）→素早さ2000のペアを作ると2回行動できる
+    <script src="./index.js"></script>
+</body>
+</html>
