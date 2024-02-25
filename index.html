@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./image-selector.css" type="text/css">
+    <script src="./style.js"></script>
+    <script src="./weapon.js"></script>
+    <script src="./acce.js"></script>
+    <script src="./summoner.js"></script>
+    <script src="./image-selector.js"></script>
+    <title>とわそるば～</title>
+</head>
+<body>
+    <h2>とわそるば～</h2>
+    <div class="container">
+        <div id="style" class="style">スタイル</div>
+        <div id="weapon_main" class="weapon_1">メイン武器パッシブ</div>
+        <div id="weapon_sub" class="weapon_2">サブ武器パッシブ</div>
+        <div id="acce" class="acce">装飾品パッシブ</div>
+        <div id="stats" class="stats">
+            実数値<br>（装飾品・メモカ）
+        </div>
+        <div id="summoner" class="summoner">召喚柱</div>
+    </div>
+    <div class="container">
+        <div id="style_1" class="style"></div>
+        <div id="weapon_main_1" class="weapon_1">
+            <select name="main_1_s" id="main_1_s"></select>
+            <select name="main_1_t" id="main_1_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="weapon_sub_1" class="weapon_2">
+            <select name="sub_1_s" id="sub_1_s"></select>
+            <select name="sub_1_t" id="sub_1_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="acce_1" class="acce">
+            <select name="acc_1_s" id="acc_1_s"></select>
+            <select name="acc_1_t" id="acc_1_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="stats_1" class="stats">
+            <input type="text" size="3" max="3" id="stats_val_1">
+        </div>
+        <div id="summoner_1" class="summoner">
+            <select name="summoner_1_s" id="summoner_1_s"></select>
+            <select name="summoner_1_t" id="summoner_1_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div id="style_2" class="style"></div>
+        <div id="weapon_main_2" class="weapon_1">
+            <select name="main_2_s" id="main_2_s"></select>
+            <select name="main_2_t" id="main_2_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="weapon_sub_2" class="weapon_2">
+            <select name="sub_2_s" id="sub_2_s"></select>
+            <select name="sub_2_t" id="sub_2_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="acce_2" class="acce">
+            <select name="acc_2_s" id="acc_2_s"></select>
+            <select name="acc_2_t" id="acc_2_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+        <div id="stats_2" class="stats">
+            <input type="text" size="3" max="3" id="stats_val_2">
+        </div>
+        <div id="summoner_2" class="summoner">
+            <select name="summoner_2_s" id="summoner_2_s"></select>
+            <select name="summoner_2_t" id="summoner_2_t">
+                <option value="0">0凸</option>
+                <option value="1">1凸</option>
+                <option value="2">2凸</option>
+                <option value="3">3凸</option>
+                <option value="4">4凸</option>
+            </select>
+        </div>
+    </div>
+    <input type="button" value="計算" onclick="towasolve()">
+    <span id="output"></span>
+    <hr>
+    <div id="log"></div>
+    <script src="./index.js"></script>
+</body>
+</html>

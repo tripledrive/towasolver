@@ -1,0 +1,47 @@
+body{
+    font-family: 'meiryo';
+}
+
+.container{
+    display: flex;
+    margin:5px;
+}
+
+.style{
+    width:130px;
+    text-align: center;
+}
+
+.weapon_1{
+    width:240px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.weapon_2{
+    width:240px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.acce{
+    width:180px;
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+.stats{
+    width:180px;
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+.summoner{
+    width:180px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+img{
+    width:100px;
+}
