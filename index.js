@@ -100,8 +100,10 @@ function towasolve(){
     let spp = Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2)
     const cspp = 2359
     let calc_spp = (spp - cspp)/20 + 1
+    let calc_points = 2359 - 20*(calc_spp*20+1)
 
-    document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動付与 => '+calc_spp)
+
+    document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動付与 => '+calc_spp+'(素早さ'+calc_points+'以下の敵に対して2回行動が期待できます)')
     
 }
 
