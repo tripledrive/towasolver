@@ -264,8 +264,16 @@ const style = [
         "bonus": ""
     },
     {
-        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E38395E382AFE383ADE382A6E4BBAEE683B3E688A6E383A9E382A4E38388E38395E382A9E383BCE383A05F69636F6E2E706E67.png",
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E38384E38390E383A1E9A2A8E69C88E383BBE4BBAEE683B3E688A6E383A9E382A4E38388E38395E382A9E383BCE383A05F69636F6E2E706E67.png",
         "name": "フクロウ",
+        "spd": "312",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E38395E382AFE383ADE382A6E4BBAEE683B3E688A6E383A9E382A4E38388E38395E382A9E383BCE383A05F69636F6E2E706E67.png",
+        "name": "ツバメ",
         "spd": "312",
         "passive": "",
         "pair": "",
@@ -565,7 +573,7 @@ const style = [
         "spd": "324",
         "passive": "5",
         "pair": "フラミンゴ",
-        "bonus": "6"
+        "bonus": "5"
     },
     {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382ABE383A9E382B9E7A5ADE58480E59E8BE382BBE383B3E38388E3839BE383AAE38387E383BC5F69636F6E2E706E67.png",
@@ -736,6 +744,14 @@ const style = [
         "bonus": ""
     },
     {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382ABE383A2E383A1E6AEB2E6BB85E59E8BE382A6E382A3E38383E383815F69636F6E2E706E67.png",
+        "name": "カモメ",
+        "spd": "343",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382ABE383A9E382B9E7A59DE7A5ADE59E8BE382A8E382BFE383BCE3838AE383ABE38389E383ACE382B95F69636F6E2E706E67.png",
         "name": "カラス",
         "spd": "343",
@@ -812,6 +828,14 @@ const style = [
         "name": "フラミンゴ",
         "spd": "350",
         "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382BFE382ABE4BBAEE683B3E688A6E383A9E382A4E38388E38395E382A9E383BCE383A05F69636F6E2E706E67.png",
+        "name": "タカ",
+        "spd": "351",
+        "passive": "15",
         "pair": "",
         "bonus": ""
     },
