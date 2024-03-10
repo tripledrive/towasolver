@@ -632,6 +632,14 @@ const style = [
         "bonus": ""
     },
     {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E8B5A4E3819AE3818DE38293E7ABA5E8A9B1E59E8BE382B9E382BFE383B3E38380E383BCE383895F69636F6E2E706E67.png",
+        "name": "赤ずきん",
+        "spd": "330",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382ABE383A9E382B9E88AB1E9B3A5E383BBE6B584E58C96E59E8BE38397E383AAE382A8E382B9E38386E382B95F69636F6E2E706E67.png",
         "name": "カラス",
         "spd": "331",
@@ -712,6 +720,14 @@ const style = [
         "bonus": ""
     },
     {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382B9E382BAE383A1E7ABA5E8A9B1E59E8BE382AFE383A9E382A6E383B3E383ADE383BCE383965F69636F6E2E706E67.png",
+        "name": "スズメ",
+        "spd": "339",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E3838FE38381E38389E383AAE5AFBEE9AD94E5A5B3E38380E382B9E38388E382B9E38388E383BCE383A05F69636F6E2E706E67.png",
         "name": "ハチドリ",
         "spd": "340",
@@ -770,6 +786,14 @@ const style = [
     {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382ABE383A9E382B9E6AEB2E6BB85E59E8BE382A6E382A3E38383E383815F69636F6E2E706E67.png",
         "name": "カラス",
+        "spd": "346",
+        "passive": "9",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382A2E383AAE382B9E7ABA5E8A9B1E59E8BE382B9E382A6E382A3E383A0E38389E383ACE382B95F69636F6E2E706E67.png",
+        "name": "アリス",
         "spd": "346",
         "passive": "9",
         "pair": "",
