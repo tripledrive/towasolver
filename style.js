@@ -520,6 +520,14 @@ const style = [
         "bonus": ""
     },
     {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E8B5A4E3819AE3818DE38293E7ABA5E8A9B1E59E8BE382AAE383ABE382BFE3838AE38386E382A3E383965F69636F6E2E706E67.png",
+        "name": "赤ずきん",
+        "spd": "321",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E3838FE382AFE38381E383A7E382A6E88AB1E9B3A5E383BBE5AFBEE9AD94E78DA3E382B9E382BFE383B3E38380E383BCE383895F69636F6E2E706E67.png",
         "name": "ハクチョウ",
         "spd": "322",
@@ -561,6 +569,14 @@ const style = [
     },
     {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382A8E3838AE382ACE7A5ADE58480E59E8BE38388E383AAE38383E382AFE3838AE382A4E383885F69636F6E2E706E67.png",
+        "name": "エナガ",
+        "spd": "324",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382A8E3838AE382ACE7ABA5E8A9B1E59E8BE382AFE383AAE383A0E382BEE383B3E38395E383BCE383895F69636F6E2E706E67.png",
         "name": "エナガ",
         "spd": "324",
         "passive": "",
@@ -674,6 +690,14 @@ const style = [
     {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E38395E383A9E3839FE383B3E382B4E88AB1E9B3A5E383BBE5AFBEE9AD94E78DA3E382B9E382BFE383B3E38380E383BCE383895F69636F6E322E706E67.png",
         "name": "フラミンゴ",
+        "spd": "336",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382B9E3838EE382A6E3839BE383AFE382A4E38388E7ABA5E8A9B1E59E8BE382B9E382A6E382A3E383A0E38389E383ACE382B95F69636F6E2E706E67.png",
+        "name": "スノウ",
         "spd": "336",
         "passive": "",
         "pair": "",
