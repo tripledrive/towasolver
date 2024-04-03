@@ -712,6 +712,14 @@ const style = [
         "bonus": ""
     },
     {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E38395E383A9E3839FE383B3E382B4E5AFBEE9AD94E5A5B3E38380E382B9E38388E382B9E38388E383BCE383A05F69636F6E2E706E67.png",
+        "name": "フラミンゴ",
+        "spd": "337",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382B9E382BAE383A1E7A5ADE58480E59E8BE382B7E383A7E382B3E383A9E383A2E383BCE383895F69636F6E2E706E67.png",
         "name": "スズメ",
         "spd": "338",
@@ -859,6 +867,14 @@ const style = [
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E383A2E382BAE7B48DE6B6BCE59E8BE38384E382ADE3839FE383A6E382ABE382BF5F69636F6E2E706E67.png",
         "name": "モズ",
         "spd": "347",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E38395E382AFE383ADE382A6E88AB1E9B3A5E383BBE8AABFE5BE8BE59E8BE382B9E38381E383BCE383A0E382A2E383BCE383A0E382BA5F69636F6E2E706E67.png",
+        "name": "フクロウ",
+        "spd": "348",
         "passive": "",
         "pair": "",
         "bonus": ""
