@@ -528,6 +528,14 @@ const style = [
         "bonus": ""
     },
     {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382BFE382ABE6B584E58C96E59E8BE382ABE383B3E3838AE382AE5F69636F6E2E706E67.png",
+        "name": "タカ",
+        "spd": "321",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E3838FE382AFE38381E383A7E382A6E88AB1E9B3A5E383BBE5AFBEE9AD94E78DA3E382B9E382BFE383B3E38380E383BCE383895F69636F6E2E706E67.png",
         "name": "ハクチョウ",
         "spd": "322",
@@ -812,6 +820,14 @@ const style = [
         "name": "フクロウ",
         "spd": "344",
         "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E38384E383ABE8AABFE5BE8BE59E8BE382B9E38381E383BCE383A0E382A2E383BCE383A0E382BA5F69636F6E2E706E67.png",
+        "name": "ツル",
+        "spd": "344",
+        "passive": "15",
         "pair": "",
         "bonus": ""
     },
