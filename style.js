@@ -976,6 +976,22 @@ const style = [
         "bonus": ""
     },
     {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E3838FE38381E38389E383AAE8AABFE5BE8BE59E8BE382B9E38381E383BCE383A0E382A2E383BCE383A0E382BA5F69636F6E2E706E67.png",
+        "name": "ハチドリ",
+        "spd": "359",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
+        "src": "https://towatsugai.wikiru.jp/attach2/696D67_E382ABE383A2E383A1E6B584E58C96E59E8BE382ABE383B3E3838AE382AE5F69636F6E2E706E67.png",
+        "name": "カモメ",
+        "spd": "360",
+        "passive": "",
+        "pair": "",
+        "bonus": ""
+    },
+    {
         "src": "https://towatsugai.wikiru.jp/attach2/696D67_E383A2E382BAE5AFBEE9AD94E5A5B3E38380E382B9E38388E382B9E38388E383BCE383A05F69636F6E2E706E67.png",
         "name": "モズ",
         "spd": "364",
