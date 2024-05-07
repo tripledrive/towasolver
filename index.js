@@ -95,12 +95,12 @@ function towasolve(){
     console.log(spd1+pas1+main1+sub1+acc1+smm1);
     console.log(spd2+pas2+main2+sub2+acc2+smm2);
 
-    document.getElementById('output').insertAdjacentHTML('beforeend','計算結果 => ' +Math.floor(Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2))+ '('+style_1.name+':'+Math.floor(Number(spd1+pas1+main1+sub1+acc1+smm1))+','+style_2.name+':'+Math.floor(Number(spd2+pas2+main2+sub2+acc2+smm2))+')')
+    document.getElementById('output').insertAdjacentHTML('beforeend','計算結果 => ' +Math.ceil(Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2))+ '('+style_1.name+':'+Math.ceil(Number(spd1+pas1+main1+sub1+acc1+smm1))+','+style_2.name+':'+Math.ceil(Number(spd2+pas2+main2+sub2+acc2+smm2))+')')
 
     //行動取得ポイントの算出
     let spp = Number(spd1+pas1+main1+sub1+acc1+smm1+spd2+pas2+main2+sub2+acc2+smm2)
-    const cspp = 2398
-    let calc_spp = Math.floor((cspp - spp)/20) + 1
+    const cspp = spp + 1
+    let calc_spp = 120 - Math.floor(cspp/20)
 
 
     document.getElementById('movepoints').insertAdjacentHTML('beforeend','行動取得 => '+calc_spp)
